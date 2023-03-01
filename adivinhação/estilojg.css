@@ -1,0 +1,74 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/background_mentalista.png");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+    box-shadow: 5px 5px 5px 5px rgba(13, 14, 19, 0.674);
+    background: rgba(22, 30, 90, 0.721);
+    margin-top: 1px;
+  }
+  .page-logo {
+    width: 200px;
+  }
+  body > img {
+    margin: 0 10px;
+  }
+  
+  img {
+    max-height: 200px; 
+  }
+section {
+    height: 220px;
+    width: 510px;
+    background: white; 
+    align-items: center;
+    border-radius: 8px 8px 8px 8px;
+    box-shadow: #252424ba 5px 5px 5px 5px;
+    padding: 5px;
+    align-content: center;
+    margin: auto;
+}  
+button { 
+  position: center;
+  border: none;
+  transition: .4s ease-in;
+  z-index: 1;
+  height: 33px;
+  width: 150px;
+  background: rgb(43, 72, 145);
+  align-items: center;
+  margin: auto;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 8px 8px 8px 8px;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: inset -10.5em 0 0 0 #1f2e68, inset 10.5em 0 0 0 #1f2e68; 
+} 
+input {
+cursor: pointer;
+}
+div {
+  font: normal 13pt Arial;
+}
+p#um {
+  color: #dbdbdb;
+  background: #191341ab;
+  box-shadow: 5px 5px 5px 5px#181818ed;
+}
+
+
+ 
