@@ -1,4 +1,4 @@
-var numsecreto = 21//parseInt(Math.random(1) * 1000)
+var numsecreto = parseInt(Math.random(1) * 1000)
 var numchute = 0
 var res = document.getElementById('res')
 var palpites = document.getElementById('palpites')
@@ -32,7 +32,8 @@ while (numusu != numsecreto || numchute == 10) {
       palpites.innerHTML = '' 
     } else if (numsecreto == numusu) {
       numchute++
-      var esconder = document.getElementById('button').hidden(true)
+      var check = document.querySelector(".check")
+      check.remove()
       res.innerHTML = `Parabéns, Você acertou, o número secreto é ${numusu}. Você usou ${numchute} palpites.`
       palpites.innerHTML = ''
     } 
