@@ -1,12 +1,12 @@
-var numsecreto = parseInt(Math.random(1) * 1000)
-var numchute = 0
+var numsecreto = parseInt(Math.random(1) * 1000) //aletorização do número
+var numchute = 0 
 var res = document.getElementById('res')
 var palpites = document.getElementById('palpites')
 palpites.innerHTML = ''
 function ver() {
    var numus = document.getElementById('number') 
    var numusu = Number(numus.value)
-   if (numus.value.length == 0 || numus.value > 1000 || numus.value == 0) {
+ if (numus.value.length == 0 || numus.value > 1000 || numus.value == 0) {
       alert('Erro! Por favor, digite um número válido')
       numus.value = ''
       numus.focus()
